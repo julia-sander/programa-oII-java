@@ -14,7 +14,7 @@ class Cachorro extends Animal {  // Subclasse específica
 }
 
 public class herança1 {
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         Cachorro c = new Cachorro();
         c.nome = "Rex";
         c.idade = 3;

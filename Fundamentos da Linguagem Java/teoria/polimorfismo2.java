@@ -39,7 +39,7 @@ class Retangulo implements Forma {
 }
 
 public class Polimorfismo2 {
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         Forma minhaForma = new Circulo(5);
         System.out.println("Área do Círculo: " + minhaForma.CalcularArea());
         System.out.println("Perímetro do Círculo: " + minhaForma.CalcularPerimetro());

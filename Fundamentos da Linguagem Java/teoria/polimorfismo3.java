@@ -101,7 +101,7 @@ class PilhaFlutuante implements ImplementaPilha {
 }
 
 pulic class polimorfismo3 {
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         ImplementaPilha pilhaInt = new PilhaInteiro(5);
         pilhaInt.push(10);
         pilhaInt.push(20);

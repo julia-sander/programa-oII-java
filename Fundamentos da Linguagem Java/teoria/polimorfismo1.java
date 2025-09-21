@@ -17,7 +17,7 @@ class Gato implements Animal {
 }
 
 public class Polimorfismo1 {
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         Animal meuAnimal = new Cachorro();
         meuAnimal.fazerSom(); // Saída: Au au
 
